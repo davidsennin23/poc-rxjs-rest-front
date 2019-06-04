@@ -31,3 +31,17 @@
     transform: rotate(360deg);
   }
 }
+
+#sidebar {
+  width: 20%;
+  float: left;
+  height: 200px;
+  background: green;
+}
+
+#main {
+  width: 80%;
+  float: left;
+  height: 200px;
+  background: red;
+}
