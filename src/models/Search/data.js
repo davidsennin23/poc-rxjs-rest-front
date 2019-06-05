@@ -5,6 +5,7 @@ export default [
         latitude: 0,
         longitude: 0,
         distancia: 0,
+        preco: 0,
         endereco: {
             rua: "",
             bairro: "",
@@ -16,6 +17,7 @@ export default [
         latitude: 0,
         longitude: 0,
         distancia: 0,
+        preco: 0,
         endereco: {
             rua: "",
             bairro: "",
@@ -27,6 +29,7 @@ export default [
         latitude: 0,
         longitude: 0,
         distancia: 0,
+        preco: 0,
         endereco: {
             rua: "",
             bairro: "",
@@ -38,6 +41,7 @@ export default [
         latitude: 0,
         longitude: 0,
         distancia: 0,
+        preco: 0,
         endereco: {
             rua: "",
             bairro: "",

@@ -1,9 +1,18 @@
 import React from 'react';
+import ParkCard from '../park-data/ParkCard'
 
-const CardList = () => (
+const cardList = {
+    width: "100%",
+    padding: "5px",
+}
 
-    <div>
-        
+const CardList = ({data}) => (
+
+    <div style={cardList}>
+        {/* <ParkCard></ParkCard> */}
+        {data.map(item =>
+            <ParkCard key={item.nome} {...item}></ParkCard>
+        )}
     </div>
 
 );

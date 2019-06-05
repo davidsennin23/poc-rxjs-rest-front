@@ -4,7 +4,6 @@ const subject = new Subject();
 class SearchResult {
 
     setSearchResult(value) {
-        console.log(value)
         subject.next(value);
     }
 
